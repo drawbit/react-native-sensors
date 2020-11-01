@@ -8,6 +8,8 @@ import {
   BarometerData,
 } from 'react-native-sensors';
 
+export type { SensorData, BarometerData };
+
 const useSensors = () => {
   const [accelerometerState, setAccelerometerState] = useState<SensorData>();
   const [gyroscopeState, setGyroscopeState] = useState<SensorData>();

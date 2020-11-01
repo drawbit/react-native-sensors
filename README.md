@@ -6,3 +6,7 @@
 - gyroscope
 - magnetometer
 - barometer
+
+## Demo
+
+![sensor](/assets/sensor.gif)
